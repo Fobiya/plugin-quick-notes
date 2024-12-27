@@ -1,0 +1,82 @@
+/* 
+ * Quick Notes Plugin Styles
+ * This file contains the SCSS styles for the Quick Notes plugin.
+ * It styles the form and notes list, ensuring responsiveness and support for both LTR and RTL layouts.
+ */
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f9f9f9;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+.quick-notes-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h2 {
+    color: $primary-color;
+}
+
+.note-form {
+    margin-bottom: 20px;
+}
+
+.note-form input[type="text"],
+.note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.note-form button {
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .delete-note {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: darken(red, 10%);
+            }
+        }
+    }
+}

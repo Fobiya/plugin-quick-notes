@@ -1,0 +1,57 @@
+#quick-notes-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    input, textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #0073aa;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #005177;
+        }
+    }
+}
+
+.quick-notes-list {
+    list-style: none;
+    padding: 0;
+
+    .note-item {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .note-content {
+            flex-grow: 1;
+        }
+
+        .delete-note {
+            background-color: #d9534f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #c9302c;
+            }
+        }
+    }
+}

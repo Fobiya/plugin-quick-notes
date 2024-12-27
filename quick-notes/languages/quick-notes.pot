@@ -1,0 +1,32 @@
+msgid "Add Note"
+msgstr ""
+
+msgid "Delete Note"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "No notes available."
+msgstr ""
+
+msgid "Quick Notes"
+msgstr ""
+
+msgid "Your note has been added."
+msgstr ""
+
+msgid "Your note has been deleted."
+msgstr ""
+
+msgid "Error adding note."
+msgstr ""
+
+msgid "Error deleting note."
+msgstr ""
+
+msgid "Please enter a note."
+msgstr ""
+
+msgid "Notes List"
+msgstr ""
